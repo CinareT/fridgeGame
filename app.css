@@ -1,0 +1,69 @@
+
+.contain{
+    background-image: url(./ref.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 15%;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+.toplu{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    
+}
+.meyve{
+    width: 6%;
+    border-radius: 50%;
+    height: 7vh;
+    border: 1px solid black;
+    
+    
+    text-align: center;
+}
+.yeni{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+h4{
+    margin-bottom: 2vh;
+}
+.box{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+button{
+    margin-left: 65%;
+}
+@media screen and (max-width: 1000px){
+   .meyve{
+    width: 13%;
+   }
+   .toplu{
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .contain{
+    width: 25%;
+   }
+   .box{
+    width: 60%;
+    flex-wrap: wrap;
+   }
+}
